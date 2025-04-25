@@ -1,0 +1,23 @@
+{
+  "name": "mini-habit-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PreeNJ/Mini-Habit-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PreeNJ/Mini-Habit-Tracker/issues"
+  },
+  "homepage": "https://github.com/PreeNJ/Mini-Habit-Tracker#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
