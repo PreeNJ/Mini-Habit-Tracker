@@ -1,0 +1,51 @@
+:root {
+    font-family: system-ui, sans-serif;
+    --gap: 0.5rem;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #f5f6fa;
+  }
+  
+  .container {
+    max-width: 640px;
+    padding: 2rem;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: var(--gap);
+    margin-bottom: var(--gap);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap);
+  }
+  
+  .count {
+    font-weight: bold;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .reset {
+    background: crimson;
+    color: #fff;
+  }
+  
